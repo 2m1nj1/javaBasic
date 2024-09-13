@@ -1,0 +1,33 @@
+
+[ class modifier ]
+
+..1.. class A {
+	
+	..2..  int a; // 멤버 변수
+	
+	..3.. A() { } // 생성자 함수
+	
+	..4.. void A () {} // 함수
+}
+
+..1.. : public / final / 							  / abstract
+..2.. : public / final / private / protected / static
+..3.. : public / 		 private / protected
+..4.. : public / final / private / protected / static / abstract 
+
+
+
+=========================================================================
+
+
+[ interface ]
+
+interface B {
+	..1.. int b;		// 멤버 ""상수""
+	..2.. void B();		// 함수
+}
+
+
+- interface는 생성자 함수를 가지지 못한다.
+- ..1.. 에 public static final이 자동으로 지정된다. ==> interface 안에서 선언 되는 필드는 무조건 ""상수""
+- ..2.. 에 public abstract가 자동으로 지정된다. ==> 

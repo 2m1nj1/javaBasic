@@ -1,0 +1,19 @@
+
+* Collection
+	- java가 이미 표준화 해둠
+	- 기본적인 자료구조(개념)를 만들어 줌
+	- java.util package 내에 존재	
+	
+1. List
+		- ArrayList : Object[] 동적크기
+		- 순서 저장 (index 보유)
+
+2. Set
+		- 순서 없음 (index 없음)
+		- 중복값 저장 안됨 
+
+3. Map;
+		- 키(key)와 값(Value) 저장 구조
+		- 키는 중복 안됨 
+		
+		 
